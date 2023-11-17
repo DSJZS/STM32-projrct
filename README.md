@@ -1,1 +1,2 @@
-# STM32-projrct
+# STM32-projrct  
+just a newbie  

@@ -28,9 +28,13 @@
 *.lst
 *.m51
 *.A51
+*.uvoptx
+*.uvprojx
+*.bat
 */Listings
 */Objects
 */project
+*/DebugConfig
 Test/
 HOMEWORK/
 EXAM/

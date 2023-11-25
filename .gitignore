@@ -30,6 +30,7 @@
 *.A51
 *.uvoptx
 *.uvprojx
+*.scvd
 *.bat
 */Listings
 */Objects

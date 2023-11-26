@@ -8,16 +8,16 @@ void Timer_Init(void)	//	T = 1s
 	NVIC_InitTypeDef NVIC_InitStructure;
 	
 	RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOA, ENABLE);	//	使能GPIOA
-	RCC_APB1PeriphClockCmd( RCC_APB1Periph_TIM2, ENABLE);	// 使能TIM2的内部时钟
+	RCC_APB1PeriphClockCmd( RCC_APB1Periph_TIM2, ENABLE);	// 使能TIM2的时钟
 	
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;	//	配置GPIO口为上拉输入模式
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;	//	TIM2_ETR对应PA0引脚
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init( GPIOA, &GPIO_InitStructure);
 	
 	TIM_ETRClockMode2Config( TIM2, TIM_ExtTRGPSC_OFF, TIM_ExtTRGPolarity_NonInverted, 0x0F);	
 	//	选择外部时钟模式2驱动时基单元，不分频，
-	//	并且触发的极性不反向(高电平或者上升沿有效)，滤波采样频率为 0xFF
+	//	并且触发的极性不反向(高电平或者上升沿有效)，滤波采样频率为 0x0F
 	
 	TIM_TimeBaseInitStructure.TIM_ClockDivision = TIM_CKD_DIV1;	// 配置外部时钟的采样频率由内部时钟几分频而来
 	TIM_TimeBaseInitStructure.TIM_CounterMode = TIM_CounterMode_Up;	//	选择向上计数模式

@@ -10,7 +10,7 @@ void PWM_Init(void)
 	RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOA, ENABLE);	//	使能GPIOA
 	RCC_APB1PeriphClockCmd( RCC_APB1Periph_TIM2, ENABLE);	// 使能TIM2的时钟
 	
-	RCC_APB2PeriphClockCmd( RCC_APB2Periph_AFIO, ENABLE);	// 使能AFIO的时钟
+//	RCC_APB2PeriphClockCmd( RCC_APB2Periph_AFIO, ENABLE);	// 使能AFIO的时钟
 //	GPIO_PinRemapConfig( GPIO_PartialRemap1_TIM2, ENABLE);	//	使能TIM2的部分重映射，
 															//	使CH1的端口从PA0 -> PA15
 //	GPIO_PinRemapConfig( GPIO_Remap_SWJ_JTAGDisable, ENABLE);	//	解除JTAG调式端口复用
@@ -36,7 +36,7 @@ void PWM_Init(void)
 	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;	//	配置高极性，有效电平为高电平
 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;	//	比较输出使能
 	TIM_OCInitStructure.TIM_Pulse = 0;	//	CCR捕获/比较寄存器的值
-	TIM_OC1Init( TIM2, &TIM_OCInitStructure);	
+	TIM_OC1Init( TIM2, &TIM_OCInitStructure);	//	初始化输出比较通道1
 	
 	TIM_Cmd( TIM2, ENABLE);	//	使能计数器
 }

@@ -26,7 +26,7 @@ void AD_Init(void)
 	ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None;	//	配置外部触发源
 										//	此处选择不外部触发，纯由软件触发
 	ADC_InitStructure.ADC_Mode = ADC_Mode_Independent;	//	配置ADC工作模式
-	ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;	//	是否连续转换，此处连续
+	ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;	//	是否连续转换，此处不连续
 	ADC_InitStructure.ADC_ScanConvMode = DISABLE;	//	是否开启扫码模式，此处不扫描
 	ADC_InitStructure.ADC_NbrOfChannel = 1;		//	扫描模式下的通道数目，此处由于不是扫描模式，参数无效
 	ADC_Init( ADC1, &ADC_InitStructure);

@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-static uint8_t Serial_RxData = 0;	//	每接收一个数据，置1
-static uint8_t Serial_RxFlag = 0;	//	存放接收的数据
+static uint8_t Serial_RxData = 0;	//	存放接收的数据
+static uint8_t Serial_RxFlag = 0;	//	每接收一个数据，置1
 
 /**
   *@brief		串口(发送和接收)初始化
@@ -21,11 +21,11 @@ void Serial_Init(void)
 	RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOA, ENABLE);	//	使能GPIOA的时钟
 	
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;	//	TX引脚选择复用推挽输出
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;	//	USART1_TX 时 PA9
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;	//	USART1_TX 是 PA9
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init( GPIOA, &GPIO_InitStructure);
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;	//	RX引脚选择复用上拉输入
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;	//	USART1_RX 时 PA10
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;	//	USART1_RX 是 PA10
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init( GPIOA, &GPIO_InitStructure);
 	

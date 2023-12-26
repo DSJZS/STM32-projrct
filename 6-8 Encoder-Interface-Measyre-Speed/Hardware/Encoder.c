@@ -20,7 +20,7 @@ void Encoder_Init(void)
 												//(但是没用，因为计数方向现在由编码器接口托管)
 	TIM_TimeBaseInitStructure.TIM_Period = 65536-1;	//	ARR自动重装器的值
 	TIM_TimeBaseInitStructure.TIM_Prescaler = 1-1;	//	PSC预分频器的值
-	TIM_TimeBaseInitStructure.TIM_RepetitionCounter = 0;	//	Repetiti            onCounter重复计数器的值(高级定时器才有)
+	TIM_TimeBaseInitStructure.TIM_RepetitionCounter = 0;	//	RepetitionCounter重复计数器的值(高级定时器才有)
 	TIM_TimeBaseInit( TIM3, &TIM_TimeBaseInitStructure);
 	//	配置通道1
 	TIM_ICStructInit( &TIM_ICInitStructure);	//	初始化IC结构体

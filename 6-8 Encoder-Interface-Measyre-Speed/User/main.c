@@ -10,7 +10,7 @@ int main(void)
 {
 	OLED_Init();
 	Timer_Init();	//	TIM2
-	Encoder_Init();	//	TIM2
+	Encoder_Init();	//	TIM3
 	OLED_ShowString( 1, 1, "Speed:");
 
 	while(1)

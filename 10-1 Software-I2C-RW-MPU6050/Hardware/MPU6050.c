@@ -54,12 +54,12 @@ uint8_t MPU6050_ReadReg( uint8_t RedAdress)
 void MPU6050_Init(void)
 {
 	MyI2C_Init();
-	MPU6050_WriteReg( MPU6050_PWR_MGMT_1, 0x01);	//	电源配置
+	MPU6050_WriteReg( MPU6050_PWR_MGMT_1, 0x00);	//	电源配置
 	MPU6050_WriteReg( MPU6050_PWR_MGMT_2, 0x00);	//	
-	MPU6050_WriteReg( MPU6050_SMPLRT_DIV, 0x09);	//	采样分配配置
+	MPU6050_WriteReg( MPU6050_SMPLRT_DIV, 0x07);	//	采样分配配置
 	MPU6050_WriteReg( MPU6050_CONFIG, 0x06);		//	配置寄存器
 	MPU6050_WriteReg( MPU6050_GYRO_CONFIG, 0x18);	//	配置陀螺仪
-	MPU6050_WriteReg( MPU6050_ACCEL_CONFIG, 0x18);	//	配置加速度计
+	MPU6050_WriteReg( MPU6050_ACCEL_CONFIG, 0x01);	//	配置加速度计
 	
 }
 

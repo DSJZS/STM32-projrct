@@ -9,7 +9,7 @@
   **/
 static void MyI2C_W_SCL(uint8_t BitValue)
 {
-	GPIO_WriteBit( GPIOB, GPIO_Pin_10, (BitAction)BitValue);
+	GPIO_WriteBit( GPIOA, GPIO_Pin_4, (BitAction)BitValue);
 	Delay_us(10);	//	根据单片机种类设置参数
 }
 
@@ -20,7 +20,7 @@ static void MyI2C_W_SCL(uint8_t BitValue)
   **/
 static void MyI2C_W_SDA(uint8_t BitValue)
 {
-	GPIO_WriteBit( GPIOB, GPIO_Pin_11, (BitAction)BitValue);
+	GPIO_WriteBit( GPIOA, GPIO_Pin_5, (BitAction)BitValue);
 	Delay_us(10);	//	根据单片机种类设置参数
 }
 
@@ -32,7 +32,7 @@ static void MyI2C_W_SDA(uint8_t BitValue)
 static uint8_t MyI2C_R_SDA(void)
 {
 	uint8_t BitValue = 0;
-	BitValue = GPIO_ReadInputDataBit( GPIOB, GPIO_Pin_11);
+	BitValue = GPIO_ReadInputDataBit( GPIOA, GPIO_Pin_5);
 	Delay_us(10);	//	根据单片机种类设置参数
 	return BitValue;
 }
@@ -46,13 +46,13 @@ void MyI2C_Init(void)
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10 | GPIO_Pin_11;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4 | GPIO_Pin_5;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	
-	RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOB, ENABLE);
-	GPIO_Init( GPIOB, &GPIO_InitStructure);
+	RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOA, ENABLE);
+	GPIO_Init( GPIOA, &GPIO_InitStructure);
 	
-	GPIO_SetBits( GPIOB, GPIO_Pin_10 | GPIO_Pin_11);
+	GPIO_SetBits( GPIOA, GPIO_Pin_4 | GPIO_Pin_5);
 }
 
 /**

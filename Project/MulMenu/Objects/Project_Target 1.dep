@@ -778,7 +778,7 @@ I (.\Library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 F (.\System\Delay.h)(0x6130920D)()
-F (.\System\MyRTC.c)(0x658BD245)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\myrtc.o --omf_browse .\objects\myrtc.crf --depend .\objects\myrtc.d)
+F (.\System\MyRTC.c)(0x658D0EF9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\myrtc.o --omf_browse .\objects\myrtc.crf --depend .\objects\myrtc.d)
 I (System\MyRTC.h)(0x658BD01F)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -873,7 +873,7 @@ I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 I (System\MyFLASH.h)(0x657EA3C8)
 F (.\System\Store.h)(0x657EAB40)()
-F (.\Hardware\Key.c)(0x658BBABB)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+F (.\Hardware\Key.c)(0x658C2671)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
@@ -948,7 +948,7 @@ F (.\Hardware\OLED_Data.c)(0x658BD276)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=in
 I (Hardware\OLED_Data.h)(0x6586A24B)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 F (.\Hardware\OLED_Data.h)(0x6586A24B)()
-F (.\Hardware\Encoder.c)(0x658BBAA7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
+F (.\Hardware\Encoder.c)(0x658C2718)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\encoder.o --omf_browse .\objects\encoder.crf --depend .\objects\encoder.d)
 I (Hardware\Encoder.h)(0x658BBA88)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -982,7 +982,7 @@ I (.\MSG\MSG.h)(0x658BE8F7)
 I (.\MSG\Message.h)(0x658C22DA)
 I (Hardware\Timer.h)(0x658BEC43)
 F (.\Hardware\Encoder.h)(0x658BBA88)()
-F (.\Hardware\Timer.c)(0x658C1FD1)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (.\Hardware\Timer.c)(0x658C23B0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (Hardware\Timer.h)(0x658BEC43)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1084,7 +1084,7 @@ I (.\Library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\Library\misc.h)(0x4D783BB4)
 F (.\MSG\Message.h)(0x658C22DA)()
 F (.\GUI\GUI.h)(0x658BDC86)()
-F (.\GUI\GUI.c)(0x658BE6A3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\gui.o --omf_browse .\objects\gui.crf --depend .\objects\gui.d)
+F (.\GUI\GUI.c)(0x658D0EF9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\gui.o --omf_browse .\objects\gui.crf --depend .\objects\gui.d)
 I (GUI\GUI.h)(0x658BDC86)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
@@ -1681,7 +1681,7 @@ I (.\Hardware\Timer.h)(0x658BEC43)
 I (.\MSG\MSG.h)(0x658BE8F7)
 I (.\MSG\Message.h)(0x658C22DA)
 F (.\Menu\TimeMenu\ClockMenu_Time.h)(0x658C2055)()
-F (.\User\main.c)(0x658C22E0)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\main.c)(0x658CD126)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\User -I .\System -I .\Hardware -I .\MSG -I .\GUI -I .\Menu -I .\Menu\GameMenu -I .\Menu\SettingMenu -I .\Menu\TextMenu -I .\Menu\TimeMenu --no-multibyte-chars-I.\RTE\_Target_1-ID:\software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\software\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Start\stm32f10x.h)(0x4D783CB4)
 I (.\Start\core_cm3.h)(0x4D523B58)
 I (D:\software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)

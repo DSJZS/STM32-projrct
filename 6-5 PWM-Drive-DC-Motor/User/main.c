@@ -15,8 +15,8 @@ int main(void)
 
 	OLED_ShowString(1,1,"Speed:");
 	
-	Motor_SetSpeed(0);
-	while(1)
+	Motor_SetSpeed(60);
+	while(1);
 	{
 		KeyNum = Key_GetNum();
 		if(KeyNum == 1)
